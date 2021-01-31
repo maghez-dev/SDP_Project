@@ -1,0 +1,27 @@
+syntax = "proto3";
+package project.node;
+
+message NodeDescription {
+    string id = 1;
+    string ip = 2;
+    string port = 3;
+}
+
+message TokenObject {
+    message AverageMeasure {
+        double value = 1;
+        double timestamp = 2;
+    }
+
+    repeated AverageMeasure average = 2;
+}
+
+message ACK {
+    string ok = 1;
+}
+
+service TokenService {
+    rpc sendToken(TokenObject) returns (ACK);
+    rpc insertNotification(NodeDescription) returns (ACK);
+    rpc deleteNotification(NodeDescription) returns (ACK);
+}

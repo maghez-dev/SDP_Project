@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="project.node.NodeBufferTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-03T13:55:33" hostname="bubblebill" time="0.007">
+  <properties/>
+  <testcase name="addMeasurement" classname="project.node.NodeBufferTest" time="0.004"/>
+  <testcase name="remove" classname="project.node.NodeBufferTest" time="0.0"/>
+  <testcase name="average" classname="project.node.NodeBufferTest" time="0.0"/>
+  <testcase name="size" classname="project.node.NodeBufferTest" time="0.001"/>
+  <testcase name="getInstanceTest" classname="project.node.NodeBufferTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
